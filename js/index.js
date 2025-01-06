@@ -17,7 +17,7 @@ function myMenuFunction(){
 
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop >  50) {
 
-      navHeader.style.boxShadow = "0 1px 6px rgba(0, 0, 0, 0.1)";
+      navHeader.style.boxShadow = "0 5px 6px rgb(252, 252, 252)";
       navHeader.style.height = "70px";
       navHeader.style.lineHeight = "70px";
 
@@ -33,11 +33,11 @@ function myMenuFunction(){
 
 /* ----- TYPING EFFECT ----- */
  var typingEffect = new Typed(".typedText",{
-    strings : ["Desenvolvedor","Novato"],
+    strings : ["Desenvolvedor Júnior"],
     loop : true,
-    typeSpeed : 100, 
-    backSpeed : 80,
-    backDelay : 2000
+    typeSpeed : 90, 
+    backSpeed : 90,
+    backDelay : 1000
  })
 
 
